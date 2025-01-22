@@ -13,7 +13,7 @@ def txt_to_list(filepath):
 
 setup(
     name = find_packages()[0], # ~~~ assumes there's only package in the directory where `setup.py` is located; otherwise, enter it manually: e.g., `name = "package_name"`
-    version = "0.0.0",
+    version = "0.1.0",
     url = "https://github.com/ThomasLastName/weighted-average-interpolation",
     author = "Thomas Winckelman",
     author_email = "winckelman@tamu.edu",
