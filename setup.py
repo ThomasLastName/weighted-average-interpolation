@@ -13,11 +13,11 @@ def txt_to_list(filepath):
 
 setup(
     name = find_packages()[0], # ~~~ assumes there's only package in the directory where `setup.py` is located; otherwise, enter it manually: e.g., `name = "package_name"`
-    version = "1.4.0",
-    url = "https://github.com/ThomasLastName/slug",
+    version = "0.0.0",
+    url = "https://github.com/ThomasLastName/weighted-average-interpolation",
     author = "Thomas Winckelman",
     author_email = "winckelman@tamu.edu",
-    description = "Description of my package",
+    description = "Modern implementation of https://www.overleaf.com/read/zbyhqbbccrmn",
     packages = find_packages(),    
     install_requires = txt_to_list("requirements.txt") # ~~~ when you pip install `package_name`, pip will also install `pyreadr`
 )
